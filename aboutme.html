@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me!</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Calibri', sans-serif;
+            background: linear-gradient(140deg, #1f1e33, red, black, #1f1e33);
+            background-size: 100% 400%;
+            animation: gradientBG 10s ease infinite;
+            color: white;
+            overflow-x: hidden;
+        }
+        @keyframes gradientBG {
+            0% {background-position: 100% 0%;}
+            50% {background-position: 0% 100%;}
+            100% {background-position: 100% 0%;}
+        }
+        .container {
+            max-width: 1000px;
+            margin: 50px auto;
+            padding: 30px;
+            background: rgba(0, 0, 0, 0.8);
+            border-radius: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+            text-align: center;
+        }
+        .pfp {
+            width: 140px;
+            height: 140px;
+            border-radius: 50%;
+            border: 4px solid #1f1e33;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+            transition: transform 0.3s ease;
+        }
+        .pfp:hover {
+            transform: scale(1.1);
+            transition: transform 0.3s ease;
+        }
+        .name {
+            font-size: 2rem;
+            font-weight: lighter;
+            background: linear-gradient(90deg, rgb(253, 63, 63), rgb(255, 71, 71), white);
+            background-clip: text;
+            color: transparent;
+            margin-bottom: 10px;
+        }
+        .note {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            text-align: center;
+        }
+        #box {
+            max-width: 750px;
+            margin: 10px auto;
+            width: 100%;
+            padding: 20px;
+            background-color: #1f1e33;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+            border-radius: 20px;
+        }
+        h2 {
+            text-align: center;
+        }
+        h3, dl {
+            text-align: left;
+        }
+        #icon {
+            width: 12px;
+            height: 12px;
+        }
+        #links
+        {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        #links a
+        {
+            text-decoration: none;
+            font-size: 1.5rem;
+            margin: 0 15px;
+            background: linear-gradient(90deg, rgb(253, 63, 63), rgb(255, 71, 71), white);
+            background-clip: text;
+            color: transparent;
+            transition: transform 0.3s ease, color 0.3s ease;
+        }
+        #links a:hover
+        {
+            color: #1f1e33;
+            transform: scale(1.2);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>About Me</h1>
+        <img class="pfp" src="https://cdn.discordapp.com/attachments/841648532377305129/1315196310512472164/profile.png?ex=67568783&is=67553603&hm=aa034f4e2668b5bb665e629a9d0c2160160728de92abfc9e9d60b2722945b91f&">
+        <h1 class="name">Jan Andrei Bonganay</h1>
+        <div class="note"><i>"I mostly play games, watch anime and coding."</i></div>
+        <p style="color: rgb(253, 255, 138)";>My name is
+            <span style="color: white"><b><i>Jan Andrei Bonganay</i></b></span>.
+            <span style="color: white"><b><i>19 years old</i></b></span>. Currently studying at 
+            <span style="color: cyan"><b>Camarines Sur Polytechnic Colleges </b></span>as a 1st Year Undergraduate Student of
+            <span style="color: white">Bachelor in Science and Technology.</span>
+        </p>
+        <div id="box">
+            <h2>SKILLS</h2>
+            <div>Basic Coding in Java and C++</div>
+            <div>Photoshop and Premiere Pro</div>
+            <div>Microsoft Excel, Publisher, PowerPoint</div>
+            <div>Word Document Formatting</div>
+        </div>
+        <div id="box">
+            <h2>HOBBIES</h2>
+            <h3>🎮 Gaming</h3>            
+            <dl>
+            <dt><b>Games I play:</b></dt>
+                <dd><img src="https://media.discordapp.net/attachments/841648532377305129/1315228652212064329/latest.png?ex=6756a5a2&is=67555422&hm=fe9612c5005df38df5850492f7c705f3546f23f55fc1aeedfb5e94d1a914462b&=&format=webp&quality=lossless" id="icon"> Genshin Impact</dd>
+                <dd><img src="https://media.discordapp.net/attachments/841648532377305129/1315228652635557950/360.png?ex=6756a5a2&is=67555422&hm=54aa34981683297819fcff6a43608f37f5e34207f5b553cc5d9465f78a80bc63&=&format=webp&quality=lossless" id="icon"> Honkai: Star Rail</dd>
+                <dd><img src="https://media.discordapp.net/attachments/841648532377305129/1315228653050662952/250.png?ex=6756a5a2&is=67555422&hm=b9d651124c39858d40119256360b4cb57fff96b0d392f05f7e5c99d88634b4e3&=&format=webp&quality=lossless" id="icon"> Zenless Zone Zero</dd>
+                <dd>and more...</dd>
+            </dl>
+            <dl>
+            <dt><b>Games I played with friends:</b></dt>
+                <dd><img src="https://media.discordapp.net/attachments/841648532377305129/1315229732219916359/8efb100a295c0c690931222ff4467bb8.png?ex=6756a6a3&is=67555523&hm=33a000257125aff0281fec78c38b34c94fb1069591c22b18eb7d4a134b49c732&=&format=webp&quality=lossless" id="icon"> Left 4 Dead 2</dd>
+                <dd><img src="https://media.discordapp.net/attachments/841648532377305129/1315229732530421841/250.png?ex=6756a6a4&is=67555524&hm=aa29670862d0e9f5ef33b6658ae4947a291f7c132f9abc9c17866f551cfc1709&=&format=webp&quality=lossless" id="icon"> Minecraft</dd>
+                <dd><img src="https://media.discordapp.net/attachments/841648532377305129/1315229732811313193/V8vfEXuoaIMKZK6GAmWEQe33VdDeEwg1lLyajFrzvghfRiExEWzHJWuZNd9EJzYVF-zR.png?ex=6756a6a4&is=67555524&hm=f9235a1df591db469a975708e5c2ae444185a5f34ee2139d80dfa1fafd4de36a&=&format=webp&quality=lossless" id="icon"> Terraria</dd>
+            </dl>
+            <dl>
+            <dt><b>Rhythm Games:</b></dt>
+                <dd><img src="https://media.discordapp.net/attachments/841648532377305129/1315231132630908980/6vtKnbt-Rd5y5KIDHUy5adgZAmHBKBMmat0MiRh53qPYr6KqIvgSsYcqAQCsP_CeXXM.png?ex=6756a7f1&is=67555671&hm=648dd323c04b38899eae7ac1ecdba4e74c51071a7c32a028808ed570b20e0a3b&=&format=webp&quality=lossless" id="icon"> Arcaea</dd>
+                <dd><img src="https://media.discordapp.net/attachments/841648532377305129/1315231132945485914/512px-Osu21_Logo_2016.png?ex=6756a7f1&is=67555671&hm=bee115887b744f14645f90bbff9ffd20315e5fd18d45441eb7c17d49d9951b27&=&format=webp&quality=lossless" id="icon"> osu!</dd>
+                <dd><img src="https://media.discordapp.net/attachments/841648532377305129/1315231133298069524/fsoltgcw7f571.png?ex=6756a7f1&is=67555671&hm=48cb97a2b9351070ddcbe52c7d295271397d722db6aad43dd7233f0d42f823e0&=&format=webp&quality=lossless" id="icon"> Cytus</dd>
+            </dl>
+            <dl>
+            <dt><b>FPS/TPS Games:</b></dt>
+                <dd><img src="https://media.discordapp.net/attachments/841648532377305129/1315231981814026311/512x512.png?ex=6756a8bc&is=6755573c&hm=3afa24504bba32196120b1a31605988776169e93277bc8c14818988d8deea666&=&format=webp&quality=lossless" id="icon"> Counter-Strike</dd>
+                <dd><img src="https://media.discordapp.net/attachments/841648532377305129/1315231982162018334/98ad446147358e18845654352fd60ca4.png?ex=6756a8bc&is=6755573c&hm=c50a52fcd052d856e5f34575f0167acfdaf0752a55df54942cd4bb1d5154ea8b&=&format=webp&quality=lossless" id="icon"> Call of Duty</dd>
+                <dd><img src="https://media.discordapp.net/attachments/841648532377305129/1315231982753677312/360.png?ex=6756a8bc&is=6755573c&hm=eab4ebdd2b4b7b441974692fa9731277ce989d670ccaf1b86c3598a25d3a765b&=&format=webp&quality=lossless" id="icon"> Valorant</dd>
+                <dd><img src="https://media.discordapp.net/attachments/841648532377305129/1315231983063928832/2605541d-f8b6-42a1-a0bb-9fd25f808c2f.png?ex=6756a8bc&is=6755573c&hm=8961402ec859349d8c0f4187688ad4d6509512e083c2435b14e41c841dabf2a4&=&format=webp&quality=lossless" id="icon"> Strinova</dd>
+            </dl>
+            <h3>⛩️ Anime</h3>
+            <dl>
+            <dt><b>Anime I've watched:</b></dt>
+                <dd>Sousou no Frieren</dd>
+                <dd>Hyouka</dd>
+                <dd>Oshi no Ko</dd>
+                <dd>and more...</dd>
+            </dl>
+            <dl>
+            <dt><b>Favorite Anime Series:</b></dt>
+                <dd>Re:Zero kara Hajimeru Isekai Seikatsu</dd>
+            </dl>
+        </div>
+        <div id="box">
+            <p>Here is one showcase of me playing Sheriruth in Arcaea</p>
+            <iframe width="100%" height="320" src="https://www.youtube.com/embed/BpEbGVkVDbk" title="「Arcaea」Sheriruth | FTR 10 | PURE MEMORY (MAX-27)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <div id="links">
+            <p>
+                <a href="https://osu.ppy.sh/users/V1-3R/" target="_blank">osu!profile</a>
+                <a href="https://myanimelist.net/profile/V1-3R" target="_blank">MyAnimeList</a>
+                <a href="https://www.facebook.com/janandrei.bonganay.7/" target="_blank">Facebook</a>
+                <a href="https://twitter.com/@V13R_31" target="_blank">Twitter</a>
+                <a href="https://www.youtube.com/@V1-3R31" target="_blank">YouTube</a>
+                <a href="https://discord.gg/WGkATB2J" target="_blank">Discord</a>
+            </p>
+       </div>
+    </div>
+</body>
+</html>
